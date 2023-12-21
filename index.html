@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="./src/output.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
     <title>UI/UX Agency</title>
 </head>
 
@@ -198,13 +203,85 @@
     <!-- section 5 -->
 
     
-    <section>
+    <section class="w-full min-h-screen bg-dark">
+
+        <div class="w-5/6 py-24 h-full max-w-6xl mx-auto  " >
+
+            <div>
+
+                <h1 class="text-white mb-24 leading-tight text-5xl text-center font-bold">
+                    How <span class="text-pri-ora">accessible</span> UX design is changing the <span class="text-pri-ora">businesses</span> for the better
+                </h1>
+
+            </div>
+
+            <div class="flex flex-col gap-16">
+                <img src="./src/assets/sec-5-1.png" alt="">
+                <img src="./src/assets/sec-5-2.png" alt="">
+                <img src="./src/assets/sec-5-3.png" alt="">
+            </div>
+
+            <div class=" mt-20 select-none">
+                <div class="swiper mySwiper w-full h-full mx-auto">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide text-center ">
+                            
+                            <h1 class= "text-white relative px-40 leading-tight text-4xl text-center font-bold ">
+                                <img class="absolute left-28" src="./src/assets/comas.png" alt="">
+                                <img class="absolute -scale-x-100 bottom-0 right-48" src="./src/assets/comas.png" alt="">
+                                TDP helped identify the main pain points and designed a new UX that is accessible and easy to understand. The redesign pushed us forward on our mission to be able to verify 100% of IDs in real-time, and we raised over $100M in funding.
+                        </h1>
+
+                        <img class="mx-auto mt-10" src="./src/assets/testimonial.png" alt="">
+
+                        </div>
+                        <div class="swiper-slide text-center ">
+                            
+                            <h1 class= "text-white relative px-40 leading-tight text-4xl text-center font-bold ">
+                                <img class="absolute left-28" src="./src/assets/comas.png" alt="">
+                                <img class="absolute -scale-x-100 bottom-0 right-48" src="./src/assets/comas.png" alt="">
+                                TDP helped identify the main pain points and designed a new UX that is accessible and easy to understand. The redesign pushed us forward on our mission to be able to verify 100% of IDs in real-time, and we raised over $100M in funding.
+                        </h1>
+
+                        <img class="mx-auto mt-10" src="./src/assets/testimonial.png" alt="">
+
+                        </div>
+                        <div class="swiper-slide text-center ">
+                            
+                            <h1 class= "text-white relative px-40 leading-tight text-4xl text-center font-bold ">
+                                <img class="absolute left-28" src="./src/assets/comas.png" alt="">
+                                <img class="absolute -scale-x-100 bottom-0 right-48" src="./src/assets/comas.png" alt="">
+                                TDP helped identify the main pain points and designed a new UX that is accessible and easy to understand. The redesign pushed us forward on our mission to be able to verify 100% of IDs in real-time, and we raised over $100M in funding.
+                        </h1>
+
+                        <img class="mx-auto mt-10" src="./src/assets/testimonial.png" alt="">
+
+                        </div>
+                        
+
+                    </div>
+                    <div class="swiper-button-next opacity-20">
+                        
+                    </div>
+                    <div class="swiper-button-prev opacity-20"></div>
+                  </div>
+            </div>
+
+            <div class="w-full flex mt-20">
+                <button class="bg-pri-ora hover:opacity-80 transition-opacity duration-300 mx-auto px-6 py-5 rounded-lg text-white text-lg font-semibold">SEE OUR CASE STUDIES</button>
+            </div>
+
+
+        </div>
+
 
     </section>
 
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="src/script.js"></script>
 </body>
 </html>
